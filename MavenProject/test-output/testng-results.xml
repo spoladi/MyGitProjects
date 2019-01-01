@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="17417" started-at="2019-01-01T09:25:50Z" finished-at="2019-01-01T09:26:07Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="17301" started-at="2019-01-01T09:25:50Z" finished-at="2019-01-01T09:26:07Z">
+      <class name="tests.NewTest">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:tests.NewTest@1bce4f0a]" name="beforeClass" is-config="true" duration-ms="7251" started-at="2019-01-01T09:25:50Z" finished-at="2019-01-01T09:25:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="openMyBlog()[pri:0, instance:tests.NewTest@1bce4f0a]" name="openMyBlog" duration-ms="7225" started-at="2019-01-01T09:25:57Z" finished-at="2019-01-01T09:26:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openMyBlog -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:tests.NewTest@1bce4f0a]" name="afterClass" is-config="true" duration-ms="2767" started-at="2019-01-01T09:26:04Z" finished-at="2019-01-01T09:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- tests.NewTest -->
+      <class name="tests.Test2">
+        <test-method status="PASS" signature="dispMsg()[pri:0, instance:tests.Test2@5e3a8624]" name="dispMsg" duration-ms="4" started-at="2019-01-01T09:26:07Z" finished-at="2019-01-01T09:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dispMsg -->
+      </class> <!-- tests.Test2 -->
+      <class name="tests.Test3">
+        <test-method status="PASS" signature="dispMsg()[pri:0, instance:tests.Test3@5c3bd550]" name="dispMsg" duration-ms="5" started-at="2019-01-01T09:26:07Z" finished-at="2019-01-01T09:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dispMsg -->
+      </class> <!-- tests.Test3 -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="3" started-at="2019-01-01T09:26:07Z" finished-at="2019-01-01T09:26:07Z">
+      <class name="tests2.Test4">
+        <test-method status="PASS" signature="dispMsg()[pri:0, instance:tests2.Test4@589838eb]" name="dispMsg" duration-ms="1" started-at="2019-01-01T09:26:07Z" finished-at="2019-01-01T09:26:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dispMsg -->
+      </class> <!-- tests2.Test4 -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
